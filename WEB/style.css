@@ -30,7 +30,18 @@ button {
   cursor: pointer;
 }
 
-h1{
-  background-color: #eb3b3b;
-  hover: #b51a1a;
+body{
+  background-color: white;
+  color:black;
+  transition: 0.3s;
+}
+
+body.dark-mode{
+  background-color: #070707;
+  color:white;
+}
+
+body.dark-mode h1{
+  background-color: #222;
+  color:white;
 }
